@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+
+    /* Colors: */
+    --unnamed-color-fbf2f2: #FBF2F2;
+    --unnamed-color-000000: #000000;
+    --unnamed-color-ffffff: #FFFFFF;
+    --unnamed-color-aa0601: #AA0601;
+    --unnamed-color-650300: #650300;
+    --unnamed-color-212529: #212529;
+    
+    /* Font/text values */
+    --unnamed-font-family-source-han-sans-tw: Source Han Sans TW;
+    --unnamed-font-style-normal: normal;
+    --unnamed-font-weight-normal: normal;
+    --unnamed-font-size-14: 14px;
+    --unnamed-character-spacing-0: 0px;
+    --unnamed-line-spacing-21: 21px;
+    }
+    
+    /* Character Styles */
+    .unnamed-character-style-1 {
+    font-family: var(--unnamed-font-family-source-han-sans-tw);
+    font-style: var(--unnamed-font-style-normal);
+    font-weight: var(--unnamed-font-weight-normal);
+    font-size: var(--unnamed-font-size-14);
+    line-height: var(--unnamed-line-spacing-21);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-212529);
+    }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
