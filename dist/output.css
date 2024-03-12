@@ -687,6 +687,10 @@ video {
   margin-top: 1px;
 }
 
+.ml-3{
+  margin-left: 0.75rem;
+}
+
 .flex{
   display: flex;
 }
@@ -747,8 +751,16 @@ video {
   align-items: center;
 }
 
+.justify-end{
+  justify-content: flex-end;
+}
+
 .justify-center{
   justify-content: center;
+}
+
+.justify-between{
+  justify-content: space-between;
 }
 
 .bg-Mycolor-CountainerBg{
