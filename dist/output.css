@@ -687,10 +687,6 @@ video {
   margin-top: 1px;
 }
 
-.ml-3{
-  margin-left: 0.75rem;
-}
-
 .flex{
   display: flex;
 }
@@ -749,10 +745,6 @@ video {
 
 .items-center{
   align-items: center;
-}
-
-.justify-end{
-  justify-content: flex-end;
 }
 
 .justify-center{
